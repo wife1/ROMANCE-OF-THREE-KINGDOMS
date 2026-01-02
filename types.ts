@@ -1,9 +1,20 @@
 export enum FactionId {
   LIU_BEI = 'LIU_BEI',
   CAO_CAO = 'CAO_CAO',
-  SUN_QUAN = 'SUN_QUAN',
-  DONG_ZHUO = 'DONG_ZHUO',
+  SUN_CE = 'SUN_CE',
   YUAN_SHAO = 'YUAN_SHAO',
+  YUAN_SHU = 'YUAN_SHU',
+  LIU_BIAO = 'LIU_BIAO',
+  MA_TENG = 'MA_TENG',
+  GONG_SUN_ZAN = 'GONG_SUN_ZAN',
+  LU_BU = 'LU_BU',
+  LI_JUE = 'LI_JUE',
+  LIU_ZHANG = 'LIU_ZHANG',
+  ZHANG_LU = 'ZHANG_LU',
+  TAO_QIAN = 'TAO_QIAN',
+  KONG_RONG = 'KONG_RONG',
+  MENG_HUO = 'MENG_HUO',
+  SHI_XIE = 'SHI_XIE',
   NONE = 'NONE'
 }
 
@@ -36,6 +47,13 @@ export interface City {
   x: number; // For map visualization (0-100%)
   y: number; // For map visualization (0-100%)
   neighbors: string[]; // IDs of connected cities
+  gridCol?: number; // Calculated grid column
+  gridRow?: number; // Calculated grid row
+}
+
+export interface BattleAnim {
+  attackerId: string;
+  defenderId: string;
 }
 
 export interface GameState {

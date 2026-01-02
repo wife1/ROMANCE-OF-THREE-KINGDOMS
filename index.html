@@ -20,6 +20,16 @@
             fontFamily: {
               mono: ['"Courier New"', 'Courier', 'monospace'],
             },
+            animation: {
+              'clash': 'clash 0.5s ease-out forwards',
+            },
+            keyframes: {
+              clash: {
+                '0%': { transform: 'translate(-50%, -50%) scale(0)', opacity: '0' },
+                '50%': { transform: 'translate(-50%, -50%) scale(1.5)', opacity: '1' },
+                '100%': { transform: 'translate(-50%, -50%) scale(1)', opacity: '0' },
+              }
+            }
           },
         },
       };
