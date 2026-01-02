@@ -37,31 +37,31 @@ export const INITIAL_CITIES: City[] = [
     id: 'c_xiangping', name: 'Xiang Ping', factionId: FactionId.NONE, // Gongsun Du
     gold: 500, food: 3000, soldiers: 8000, population: 30000,
     farming: 40, commerce: 30, defense: 50, governorId: 'g_gongsundu',
-    x: 96, y: 5, neighbors: []
+    x: 92, y: 5, neighbors: []
   },
   {
     id: 'c_beiping', name: 'Bei Ping', factionId: FactionId.GONG_SUN_ZAN,
     gold: 400, food: 3000, soldiers: 9000, population: 40000,
     farming: 45, commerce: 40, defense: 75, governorId: 'g_gongsunzan',
-    x: 88, y: 10, neighbors: []
+    x: 80, y: 8, neighbors: []
   },
   {
     id: 'c_nanpi', name: 'Nan Pi', factionId: FactionId.YUAN_SHAO,
     gold: 600, food: 5000, soldiers: 12000, population: 60000,
     farming: 65, commerce: 55, defense: 65, governorId: 'g_wenchou',
-    x: 78, y: 18, neighbors: []
+    x: 72, y: 18, neighbors: []
   },
   {
     id: 'c_ye', name: 'Ye', factionId: FactionId.YUAN_SHAO,
     gold: 900, food: 6000, soldiers: 15000, population: 80000,
     farming: 80, commerce: 70, defense: 85, governorId: 'g_yuanshao',
-    x: 68, y: 22, neighbors: []
+    x: 62, y: 22, neighbors: []
   },
   {
     id: 'c_jinyang', name: 'Jin Yang', factionId: FactionId.NONE, // Zhang Yan
     gold: 300, food: 2000, soldiers: 5000, population: 35000,
     farming: 40, commerce: 30, defense: 70, governorId: 'g_zhangyan',
-    x: 55, y: 15, neighbors: []
+    x: 50, y: 12, neighbors: []
   },
   {
     id: 'c_shangdang', name: 'Shang Dang', factionId: FactionId.NONE, // Zhang Yang
@@ -73,19 +73,19 @@ export const INITIAL_CITIES: City[] = [
     id: 'c_pingyuan', name: 'Ping Yuan', factionId: FactionId.NONE,
     gold: 350, food: 2500, soldiers: 4000, population: 40000,
     farming: 55, commerce: 45, defense: 50, governorId: 'g_yuantan',
-    x: 80, y: 26, neighbors: []
+    x: 75, y: 25, neighbors: []
   },
   {
     id: 'c_beihai', name: 'Bei Hai', factionId: FactionId.KONG_RONG,
     gold: 400, food: 3000, soldiers: 6000, population: 45000,
     farming: 60, commerce: 60, defense: 55, governorId: 'g_kongrong',
-    x: 90, y: 28, neighbors: []
+    x: 88, y: 25, neighbors: []
   },
   {
     id: 'c_langye', name: 'Lang Ye', factionId: FactionId.NONE, // Zang Ba
     gold: 250, food: 2000, soldiers: 8000, population: 30000,
     farming: 40, commerce: 30, defense: 60, governorId: 'g_zangba',
-    x: 92, y: 36, neighbors: []
+    x: 90, y: 35, neighbors: []
   },
 
   // --- CENTRAL PLAINS (Cao Cao / Lu Bu / Contested) ---
@@ -93,37 +93,37 @@ export const INITIAL_CITIES: City[] = [
     id: 'c_puyang', name: 'Pu Yang', factionId: FactionId.LU_BU,
     gold: 200, food: 1500, soldiers: 12000, population: 40000,
     farming: 40, commerce: 40, defense: 60, governorId: 'g_lubu',
-    x: 72, y: 33, neighbors: []
+    x: 65, y: 32, neighbors: []
   },
   {
     id: 'c_chenliu', name: 'Chen Liu', factionId: FactionId.CAO_CAO,
     gold: 500, food: 3000, soldiers: 8000, population: 50000,
     farming: 60, commerce: 60, defense: 65, governorId: 'g_caocao',
-    x: 60, y: 36, neighbors: []
+    x: 58, y: 36, neighbors: []
   },
   {
     id: 'c_hulao', name: 'Hulao Gate', factionId: FactionId.NONE,
     gold: 100, food: 1000, soldiers: 2000, population: 5000,
     farming: 10, commerce: 10, defense: 95, governorId: null,
-    x: 52, y: 35, neighbors: []
+    x: 50, y: 35, neighbors: []
   },
   {
     id: 'c_luoyang', name: 'Luo Yang', factionId: FactionId.NONE, // Ruined
     gold: 200, food: 1000, soldiers: 1000, population: 20000,
     farming: 20, commerce: 20, defense: 40, governorId: null,
-    x: 45, y: 35, neighbors: []
+    x: 42, y: 35, neighbors: []
   },
   {
     id: 'c_xuchang', name: 'Xu Chang', factionId: FactionId.CAO_CAO,
     gold: 400, food: 4000, soldiers: 7000, population: 60000,
     farming: 80, commerce: 70, defense: 60, governorId: 'g_xiahoudun',
-    x: 58, y: 46, neighbors: []
+    x: 55, y: 45, neighbors: []
   },
   {
     id: 'c_wan', name: 'Wan', factionId: FactionId.NONE, // Zhang Xiu
     gold: 300, food: 2000, soldiers: 8000, population: 35000,
     farming: 50, commerce: 50, defense: 65, governorId: 'g_zhangxiu',
-    x: 48, y: 52, neighbors: []
+    x: 44, y: 48, neighbors: []
   },
 
   // --- EAST (Liu Bei / Tao Qian / Yuan Shu) ---
@@ -131,31 +131,31 @@ export const INITIAL_CITIES: City[] = [
     id: 'c_xiaopei', name: 'Xiao Pei', factionId: FactionId.LIU_BEI,
     gold: 250, food: 1500, soldiers: 4000, population: 25000,
     farming: 45, commerce: 30, defense: 40, governorId: 'g_liubei',
-    x: 78, y: 38, neighbors: []
+    x: 72, y: 36, neighbors: []
   },
   {
     id: 'c_xiapi', name: 'Xia Pi', factionId: FactionId.TAO_QIAN,
     gold: 600, food: 4000, soldiers: 8000, population: 55000,
     farming: 75, commerce: 65, defense: 75, governorId: 'g_taoqian',
-    x: 86, y: 42, neighbors: []
+    x: 78, y: 40, neighbors: []
   },
   {
     id: 'c_runan', name: 'Ru Nan', factionId: FactionId.NONE, // Yellow Turbans/Kong Zhou
     gold: 200, food: 1500, soldiers: 15000, population: 60000,
     farming: 60, commerce: 40, defense: 40, governorId: 'g_gongdu',
-    x: 60, y: 58, neighbors: []
+    x: 58, y: 52, neighbors: []
   },
   {
     id: 'c_shouchun', name: 'Shou Chun', factionId: FactionId.YUAN_SHU,
     gold: 800, food: 5000, soldiers: 20000, population: 70000,
     farming: 70, commerce: 75, defense: 80, governorId: 'g_yuanshu',
-    x: 72, y: 60, neighbors: []
+    x: 70, y: 55, neighbors: []
   },
   {
     id: 'c_guangling', name: 'Guang Ling', factionId: FactionId.NONE,
     gold: 300, food: 2000, soldiers: 3000, population: 30000,
     farming: 50, commerce: 50, defense: 45, governorId: 'g_zerong',
-    x: 90, y: 50, neighbors: []
+    x: 85, y: 48, neighbors: []
   },
 
   // --- NORTH WEST (Li Jue / Ma Teng) ---
@@ -169,69 +169,69 @@ export const INITIAL_CITIES: City[] = [
     id: 'c_chencang', name: 'Chen Cang', factionId: FactionId.LI_JUE,
     gold: 300, food: 3000, soldiers: 8000, population: 20000,
     farming: 40, commerce: 30, defense: 85, governorId: null,
-    x: 22, y: 36, neighbors: []
+    x: 24, y: 35, neighbors: []
   },
   {
     id: 'c_anding', name: 'An Ding', factionId: FactionId.MA_TENG,
     gold: 300, food: 2500, soldiers: 10000, population: 20000,
     farming: 30, commerce: 20, defense: 60, governorId: null,
-    x: 25, y: 22, neighbors: []
+    x: 24, y: 20, neighbors: []
   },
   {
     id: 'c_tianshui', name: 'Tian Shui', factionId: FactionId.MA_TENG,
     gold: 350, food: 3000, soldiers: 12000, population: 30000,
     farming: 45, commerce: 35, defense: 65, governorId: 'g_mateng',
-    x: 15, y: 28, neighbors: []
+    x: 16, y: 25, neighbors: []
   },
   {
     id: 'c_wuwei', name: 'Wu Wei', factionId: FactionId.MA_TENG,
     gold: 250, food: 2000, soldiers: 8000, population: 15000,
     farming: 20, commerce: 40, defense: 55, governorId: 'g_machao',
-    x: 5, y: 15, neighbors: []
+    x: 15, y: 10, neighbors: []
   },
 
-  // --- YI PROVINCE & HANZHONG (Liu Zhang / Zhang Lu) ---
+  // --- YU PROVINCE & HANZHONG (Liu Zhang / Zhang Lu) ---
   {
     id: 'c_hanzhong', name: 'Han Zhong', factionId: FactionId.ZHANG_LU,
     gold: 500, food: 5000, soldiers: 10000, population: 40000,
     farming: 65, commerce: 40, defense: 90, governorId: 'g_zhanglu',
-    x: 28, y: 50, neighbors: []
+    x: 24, y: 45, neighbors: []
   },
   {
     id: 'c_zitong', name: 'Zi Tong', factionId: FactionId.LIU_ZHANG,
     gold: 400, food: 4000, soldiers: 6000, population: 35000,
     farming: 60, commerce: 30, defense: 85, governorId: null,
-    x: 22, y: 60, neighbors: []
+    x: 20, y: 55, neighbors: []
   },
   {
     id: 'c_chengdu', name: 'Cheng Du', factionId: FactionId.LIU_ZHANG,
     gold: 1000, food: 10000, soldiers: 20000, population: 90000,
     farming: 95, commerce: 70, defense: 80, governorId: 'g_liuzhang',
-    x: 15, y: 70, neighbors: []
+    x: 14, y: 65, neighbors: []
   },
   {
     id: 'c_jiangzhou', name: 'Jiang Zhou', factionId: FactionId.LIU_ZHANG,
     gold: 500, food: 5000, soldiers: 8000, population: 50000,
     farming: 70, commerce: 60, defense: 70, governorId: 'g_yan_yan',
-    x: 25, y: 75, neighbors: []
+    x: 22, y: 68, neighbors: []
   },
   {
     id: 'c_yongan', name: 'Yong An', factionId: FactionId.LIU_ZHANG,
     gold: 300, food: 3000, soldiers: 5000, population: 25000,
     farming: 40, commerce: 30, defense: 80, governorId: null,
-    x: 35, y: 72, neighbors: []
+    x: 30, y: 65, neighbors: []
   },
   {
     id: 'c_jianning', name: 'Jian Ning', factionId: FactionId.NONE, // Nanman Border
     gold: 200, food: 2000, soldiers: 15000, population: 30000,
     farming: 40, commerce: 20, defense: 50, governorId: null,
-    x: 12, y: 88, neighbors: []
+    x: 14, y: 85, neighbors: []
   },
   {
     id: 'c_yunnan', name: 'Yun Nan', factionId: FactionId.MENG_HUO,
     gold: 300, food: 2000, soldiers: 20000, population: 50000,
     farming: 30, commerce: 10, defense: 60, governorId: 'g_menghuo',
-    x: 8, y: 96, neighbors: []
+    x: 6, y: 92, neighbors: []
   },
 
   // --- JING PROVINCE (Liu Biao) ---
@@ -239,55 +239,55 @@ export const INITIAL_CITIES: City[] = [
     id: 'c_shangyong', name: 'Shang Yong', factionId: FactionId.NONE, // Shen brothers
     gold: 200, food: 1500, soldiers: 3000, population: 15000,
     farming: 30, commerce: 20, defense: 75, governorId: null,
-    x: 38, y: 52, neighbors: []
+    x: 34, y: 48, neighbors: []
   },
   {
     id: 'c_xinye', name: 'Xin Ye', factionId: FactionId.LIU_BIAO, // Technically under Liu Biao
     gold: 200, food: 2000, soldiers: 4000, population: 25000,
     farming: 50, commerce: 30, defense: 40, governorId: null,
-    x: 48, y: 62, neighbors: []
+    x: 46, y: 52, neighbors: []
   },
   {
     id: 'c_xiangyang', name: 'Xiang Yang', factionId: FactionId.LIU_BIAO,
     gold: 800, food: 8000, soldiers: 15000, population: 80000,
     farming: 85, commerce: 80, defense: 90, governorId: 'g_liubiao',
-    x: 45, y: 68, neighbors: []
+    x: 44, y: 58, neighbors: []
   },
   {
     id: 'c_jiangxia', name: 'Jiang Xia', factionId: FactionId.LIU_BIAO,
     gold: 500, food: 4000, soldiers: 12000, population: 40000,
     farming: 60, commerce: 60, defense: 80, governorId: 'g_huangzu',
-    x: 55, y: 70, neighbors: []
+    x: 54, y: 60, neighbors: []
   },
   {
     id: 'c_jiangling', name: 'Jiang Ling', factionId: FactionId.LIU_BIAO,
     gold: 600, food: 6000, soldiers: 10000, population: 60000,
     farming: 80, commerce: 75, defense: 85, governorId: 'g_cairen',
-    x: 42, y: 75, neighbors: []
+    x: 40, y: 62, neighbors: []
   },
   {
     id: 'c_wuling', name: 'Wu Ling', factionId: FactionId.NONE, // Jin Xuan
     gold: 300, food: 3000, soldiers: 5000, population: 30000,
     farming: 50, commerce: 40, defense: 50, governorId: 'g_jinxuan',
-    x: 38, y: 80, neighbors: []
+    x: 36, y: 72, neighbors: []
   },
   {
     id: 'c_changsha', name: 'Chang Sha', factionId: FactionId.NONE, // Han Xuan
     gold: 400, food: 4000, soldiers: 8000, population: 45000,
     farming: 65, commerce: 55, defense: 60, governorId: 'g_hanxuan', // Han Xuan starts here
-    x: 48, y: 82, neighbors: []
+    x: 50, y: 72, neighbors: []
   },
   {
     id: 'c_lingling', name: 'Ling Ling', factionId: FactionId.NONE, // Liu Du
     gold: 250, food: 2500, soldiers: 4000, population: 25000,
     farming: 45, commerce: 35, defense: 45, governorId: 'g_liudu',
-    x: 40, y: 88, neighbors: []
+    x: 38, y: 85, neighbors: []
   },
   {
     id: 'c_guiyang', name: 'Gui Yang', factionId: FactionId.NONE, // Zhao Fan
     gold: 250, food: 2500, soldiers: 4000, population: 25000,
     farming: 45, commerce: 35, defense: 45, governorId: 'g_zhaofan',
-    x: 50, y: 88, neighbors: []
+    x: 48, y: 85, neighbors: []
   },
 
   // --- JIANGDONG (Sun Ce / Liu Yao / Others) ---
@@ -295,31 +295,31 @@ export const INITIAL_CITIES: City[] = [
     id: 'c_lujiang', name: 'Lu Jiang', factionId: FactionId.SUN_CE, // Sun Ce base approx
     gold: 400, food: 3000, soldiers: 5000, population: 35000,
     farming: 55, commerce: 50, defense: 60, governorId: 'g_sunce',
-    x: 65, y: 68, neighbors: []
+    x: 62, y: 60, neighbors: []
   },
   {
     id: 'c_chaisang', name: 'Chai Sang', factionId: FactionId.NONE,
     gold: 350, food: 3000, soldiers: 4000, population: 30000,
     farming: 60, commerce: 60, defense: 70, governorId: null,
-    x: 58, y: 80, neighbors: []
+    x: 56, y: 68, neighbors: []
   },
   {
     id: 'c_jianye', name: 'Jian Ye', factionId: FactionId.NONE, // Liu Yao
     gold: 700, food: 6000, soldiers: 12000, population: 75000,
     farming: 85, commerce: 90, defense: 80, governorId: 'g_liuyao',
-    x: 80, y: 70, neighbors: []
+    x: 80, y: 58, neighbors: []
   },
   {
     id: 'c_wu', name: 'Wu', factionId: FactionId.NONE, // Yan Baihu
     gold: 500, food: 4000, soldiers: 6000, population: 50000,
     farming: 75, commerce: 80, defense: 65, governorId: 'g_yanbaihu',
-    x: 88, y: 75, neighbors: []
+    x: 92, y: 62, neighbors: []
   },
   {
     id: 'c_huiji', name: 'Hui Ji', factionId: FactionId.NONE, // Wang Lang
     gold: 400, food: 3500, soldiers: 5000, population: 40000,
     farming: 60, commerce: 60, defense: 50, governorId: 'g_wanglang',
-    x: 86, y: 85, neighbors: []
+    x: 86, y: 75, neighbors: []
   },
 
   // --- SOUTH (Jiao Province) ---
@@ -327,13 +327,13 @@ export const INITIAL_CITIES: City[] = [
     id: 'c_nanhai', name: 'Nan Hai', factionId: FactionId.SHI_XIE,
     gold: 400, food: 4000, soldiers: 6000, population: 30000,
     farming: 50, commerce: 70, defense: 50, governorId: null,
-    x: 60, y: 94, neighbors: []
+    x: 65, y: 92, neighbors: []
   },
   {
     id: 'c_jiaozhi', name: 'Jiao Zhi', factionId: FactionId.SHI_XIE,
     gold: 600, food: 5000, soldiers: 8000, population: 40000,
     farming: 65, commerce: 50, defense: 60, governorId: 'g_shixie',
-    x: 40, y: 96, neighbors: []
+    x: 55, y: 95, neighbors: []
   }
 ];
 

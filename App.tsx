@@ -15,8 +15,9 @@ import { getAdvisorAdvice, getBattleReport, getSeasonalEvent } from './services/
 const processInitialMap = (rawCities: City[]): City[] => {
   const occupied = new Set<string>();
   const citiesWithGrid: City[] = rawCities.map(city => {
-      let col = Math.floor((city.x / 100) * (GRID_COLS - 1));
-      let row = Math.floor((city.y / 100) * (GRID_ROWS - 1));
+      // Use full grid range for distribution (0 to GRID-1)
+      let col = Math.min(GRID_COLS - 1, Math.floor((city.x / 100) * GRID_COLS));
+      let row = Math.min(GRID_ROWS - 1, Math.floor((city.y / 100) * GRID_ROWS));
       
       // Collision Resolution (Spiral)
       let radius = 0;
